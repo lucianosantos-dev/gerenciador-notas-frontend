@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Formulario } from "./components/formulario/formulario";
 
 @Component({
   selector: 'ls-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Formulario],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
