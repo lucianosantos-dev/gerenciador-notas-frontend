@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'ls-formulario',
   imports: [],
   templateUrl: './formulario.html',
-  styleUrl: './formulario.css',
+  styleUrls: ['./formulario.css'],
 })
 export class Formulario {
 
