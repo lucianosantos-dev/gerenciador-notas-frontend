@@ -1,1 +1,57 @@
-<p>formulario works!</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Nova Nota Fiscal</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                
+                <header class="mb-4">
+                    <h1 class="display-5 fw-normal">Adicionar Nova Nota Fiscal</h1>
+                    <hr class="my-4">
+                </header>
+
+                <form>
+                    <div class="mb-4">
+                        <label for="numero" class="form-label fs-5">Número da Nota</label>
+                        <input type="text" class="form-control form-control-lg shadow-sm" id="numero" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="emissor" class="form-label fs-5">Emissor</label>
+                        <input type="text" class="form-control form-control-lg shadow-sm" id="emissor" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="valor" class="form-label fs-5">Valor</label>
+                        <input type="text" class="form-control form-control-lg shadow-sm" id="valor" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="dataEmissao" class="form-label fs-5">Data de Emissão</label>
+                        <input type="date" class="form-control form-control-lg shadow-sm" id="dataEmissao" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="dataVencimento" class="form-label fs-5">Data de Vencimento</label>
+                        <input type="date" class="form-control form-control-lg shadow-sm" id="dataVencimento" required>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-5 pb-5">
+                        <button type="submit" class="btn btn-primary btn-lg px-4 py-2">Salvar Nota</button>
+                        <button type="button" class="btn btn-secondary btn-lg px-4 py-2">Cancelar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
